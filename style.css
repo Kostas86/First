@@ -1,0 +1,23 @@
+body{
+	width: 600px;
+	margin: 0 auto;
+	background-color: cadetblue;
+	font-family: Arial, Helvetica, sans-serif;
+
+}
+h1{
+	
+	border-bottom: cornflowerblue solid 3px;
+}
+.subform{
+	font-size: 15px;
+
+}
+.subform label{
+	 display: inline-block;
+	 width: 160px;
+	 vertical-align: top;
+}
+.subform textarea, .subform input[type="email"], .subform input[type="text"]{
+	background-color: crimson;
+}

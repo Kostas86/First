@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+	    <meta charset="utf-8">
+	    <title> vert hor menu</title>
+	    <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+<body>
+    <article>
+        <h1>Форма ученика HtML</h1>
+        <form method="POST" action="/" class="subform">
+            <p>
+                <label for="name">what is your name?</label>
+                <input type="text" name="name" id="name">
+            </p>
+            <p>
+                <label for="email">enter yiur email</label>
+                <input type="email" name="email" id="email">
+            </p>
+            <p> Your skills:
+                <label>
+                    <input type="radio" name="skill" value="1"> JS
+                </label>
+                <label>
+                    <input type="radio" name="skill" value="2"> HTML&CSS
+                </label>
+                <label>
+                    <input type="radio" name="skill" value="3"> PHP
+                </label>
+            </p>
+            <p>
+                <label for="goal"> Your Target</label>
+                <select name="goal" id="goal">
+                    <option>bla</option>
+                    <option>blabla</option>
+                    <option>blablabla</option>
+                    <option>blablablabla</option>
+                </select>
+            </p>
+            <p>
+                <label for="comments"> Your bla bla</label>
+                <textarea name="comments" cols="40" rows="5" id="comments">
+                </textarea>
+            </p>
+            <p>
+                <input type="submit" value="submit">
+                <input type="reset" value="reset">
+            </p>
+
+        </form>
+    </article>
+</body>
+</html>

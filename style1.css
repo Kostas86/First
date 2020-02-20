@@ -1,0 +1,29 @@
+body{
+	padding: 20px;
+	max-width: 500px;
+	text-align: center;
+	margin: 0 auto;
+
+}
+
+h1{
+	font-family: Arial;
+
+}
+p{
+	font-family: 'Lacquer', sans-serif;
+	text-transform: none; 
+	text-decoration: none;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+}
+ol{
+	list-style-image: url(../img/point.png);
+	max-width: 100px;
+	text-align: center;
+	margin: 0 auto;
+}
