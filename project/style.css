@@ -173,6 +173,13 @@ display: block;
 .context{ 
 	background-color: rgba(0, 0, 0, 0.1);
 	color: black;
+	font-size: 16px;
 	border-bottom: 4px, linear-gradient(168.41deg, #1C3254 0%, #F7423B 100%);
 
+}
+.item_text4, .item_text5, .item_text6{
+	min-height: 82px;
+}
+.item_text1, .item_text2, .item_text3{
+	min-height: 119px;
 }
