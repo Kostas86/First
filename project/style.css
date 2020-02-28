@@ -134,3 +134,45 @@ display: block;
 .button:hover{
 	opacity: 0.8;
 }
+.page{
+	background: white;
+	width: 100%;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: nowrap;
+}
+.service{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	margin-top: 60px;
+	margin-bottom: 60px;
+	max-width: 984px;
+	
+}
+.service_title{
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+
+}
+.service_block{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+}
+.constep{
+	max-width: 312px;
+	margin-top: 38px;
+	
+}
+.context{ 
+	background-color: rgba(0, 0, 0, 0.1);
+	color: black;
+	border-bottom: 4px, linear-gradient(168.41deg, #1C3254 0%, #F7423B 100%);
+
+}
