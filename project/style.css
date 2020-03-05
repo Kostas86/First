@@ -66,6 +66,7 @@ display: block;
 	font-size: 17px;
 	color: #0071BB;
 }
+/*======================================================================*/
 .banner{
 	width: 100%;
 	max-height: 480px;
@@ -134,6 +135,7 @@ display: block;
 .button:hover{
 	opacity: 0.8;
 }
+/*=====================================================================*/
 .page{
 	background: white;
 	width: 100%;
@@ -156,38 +158,44 @@ display: block;
 	display: flex;
 	justify-content: flex-start;
 	align-items: flex-start;
+	margin: 0 0 40px 0;
 
 }
 .service_block{
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	justify-content: space-between;
+
 
 }
 .constep{
-	max-width: 312px;
-	margin-top: 38px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	flex: 0 0 33.333%;
 	
 }
+.item_img{
+	display: block;
+	
+}
+.item_img__img{
+	width: 100%;
+}
 .context{ 
+	display: flex;
+	width: 100%;
 	background-color: rgba(0, 0, 0, 0.1);
+	flex: 0 1 50%;	
+}
+.item_text{
 	color: black;
 	font-size: 16px;
-	border-bottom: 4px, linear-gradient(168.41deg, #1C3254 0%, #F7423B 100%);
 }
+
 .bottom_line{
 	height: 4px;
 	background: linear-gradient(168.41deg, #1C3254 0%, #F7423B 100%);
 }
-.item_text4, .item_text5, .item_text6{
-	min-height: 82px;
-}
-.item_text1, .item_text2, .item_text3{
-	min-height: 119px;
-}
-.concircle {
-	display: inline-block;
-	position: absolute;
-  }
-  
+
+
