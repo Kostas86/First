@@ -193,9 +193,7 @@ display: block;
 	color: #FFFFFF;
 	padding: 9px 14px;
 }
-.block_img{
-	/* position: relative;  */  /*иначе номер нe ложится поверх*/
-}
+
 .block_img img{
 	width: 100%;
 	display: block;
@@ -238,5 +236,36 @@ display: block;
 .shop_block{
 	display: flex;
 	flex: 0 0 50%;
+	width: 50%;
+	margin: 60px 0 60px 0;
+	padding: 0 30px 0 30px;
+}
+.shop_block__img{
+	position: relative;
+	margin: 0 64px 24px 64px;
+	border-radius: 50%;
+	overflow: hidden;
+}
 
+.shop_block__img img{
+	width: 100%;
+	display: block;
+}
+.shop_block__title{
+	margin-bottom: 16px;
+}
+.shop_block__title h2{
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 23px;
+	text-align: center;
+	color: white;
+}
+.shop_block__text{
+	padding: 0 15px;
+}
+.shop_block__text p{
+	font-weight: 300;
+	font-size: 16px;
+	color: white;
 }
