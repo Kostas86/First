@@ -1,0 +1,375 @@
+@charset "UTF-8";
+/* line 1, ../sass/_oldpages.scss */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* line 6, ../sass/_oldpages.scss */
+.container {
+  width: 1366px;
+  margin: 0 auto;
+  position: relative;
+}
+
+/* line 11, ../sass/_oldpages.scss */
+body {
+  background: white;
+  height: 100%;
+  position: relative;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* line 17, ../sass/_oldpages.scss */
+.header {
+  background: white;
+  width: 100%;
+}
+
+/* line 21, ../sass/_oldpages.scss */
+.header_wrap {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 100px;
+  padding: 10px 50px;
+}
+
+/* line 30, ../sass/_oldpages.scss */
+.header_group {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+/* line 37, ../sass/_oldpages.scss */
+.header_group a {
+  cursor: pointer;
+}
+
+/* line 41, ../sass/_oldpages.scss */
+.header_group a:hover {
+  opacity: 0.6;
+}
+
+/* line 44, ../sass/_oldpages.scss */
+.header_logo {
+  display: inline-block;
+  position: relative;
+  height: 32px;
+}
+
+/* line 49, ../sass/_oldpages.scss */
+.header_logo img {
+  height: 100%;
+  display: block;
+}
+
+/* line 53, ../sass/_oldpages.scss */
+.header_link_tel {
+  font-size: 26px;
+  line-height: 32px;
+  color: grey;
+  text-decoration: none;
+}
+
+/* line 59, ../sass/_oldpages.scss */
+.header_link_tel span {
+  font-size: 17px;
+  line-height: 32px;
+  color: #F7423B;
+}
+
+/* line 65, ../sass/_oldpages.scss */
+.header_link_mail {
+  margin-left: 28px;
+  font-size: 17px;
+  color: #0071BB;
+}
+
+/*======================================================================*/
+/* line 71, ../sass/_oldpages.scss */
+.banner {
+  width: 100%;
+  max-height: 480px;
+  background-image: url(img/bg_image.png);
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+/* line 79, ../sass/_oldpages.scss */
+.banner_top {
+  max-width: 700px;
+  padding: 120px 0;
+  min-height: 356px;
+}
+
+/* line 86, ../sass/_oldpages.scss */
+.banner_top h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #FFFFFF;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 56px;
+  text-align: center;
+}
+
+/* line 95, ../sass/_oldpages.scss */
+.banner_bottom {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  flex: 0 0 auto;
+  max-height: 124px;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+/* line 103, ../sass/_oldpages.scss */
+.banner_wrap {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+/* line 108, ../sass/_oldpages.scss */
+.item_text {
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+/* line 112, ../sass/_oldpages.scss */
+.item_text p {
+  color: white;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: right;
+  padding-right: 40px;
+  border-right: 1px solid white;
+}
+
+/* line 120, ../sass/_oldpages.scss */
+.item_button {
+  min-width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* line 126, ../sass/_oldpages.scss */
+.button {
+  background: #F7423B;
+  border-radius: 4px;
+  border: 1px solid #F7423B;
+  color: #FFFFFF;
+  font-size: 16px;
+  text-decoration: none;
+  padding: 8px;
+  cursor: pointer;
+}
+
+/* line 136, ../sass/_oldpages.scss */
+.button:hover {
+  opacity: 0.8;
+}
+
+/*=====================================================================*/
+/* line 140, ../sass/_oldpages.scss */
+.page {
+  background: white;
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  margin-bottom: 60px;
+}
+
+/* line 150, ../sass/_oldpages.scss */
+.service {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  max-width: 984px;
+}
+
+/* line 157, ../sass/_oldpages.scss */
+.service_title {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: 60px;
+  margin-bottom: 12px;
+}
+
+/* line 165, ../sass/_oldpages.scss */
+.service_block {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: stretch;
+}
+
+/* line 171, ../sass/_oldpages.scss */
+.block_item {
+  /*conctep */
+  position: relative;
+  /* ╨┤╨╗╤П ╨╜╨░╨╗╨╛╨╢╨╡╨╜╨╕╤П ╨╜╨╛╨╝╨╡╤А╨░*/
+  display: flex;
+  flex-direction: column;
+  width: calc((100% - 48px) / 3);
+  margin-top: 38px;
+}
+
+/* line 178, ../sass/_oldpages.scss */
+.block_item:not(:nth-child(3n)) {
+  margin-right: 24px;
+}
+
+/* line 181, ../sass/_oldpages.scss */
+.block_number {
+  position: absolute;
+  left: 12px;
+  top: -20px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #0071BB;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: #FFFFFF;
+  padding: 9px 14px;
+}
+
+/*.block_img{
+	 position: relative;   ╨╕╨╜╨░╤З╨╡ ╨╜╨╛╨╝╨╡╤А ╨╜e ╨╗╨╛╨╢╨╕╤В╤Б╤П ╨┐╨╛╨▓╨╡╤А╤Е
+}*/
+/* line 201, ../sass/_oldpages.scss */
+.block_img img {
+  width: 100%;
+  display: block;
+}
+
+/* line 205, ../sass/_oldpages.scss */
+.block_text {
+  display: flex;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 20px 16px;
+  flex: 0 1 100%;
+  /*╤А╨░╤Б╤И╨╕╤А╤П╨╡╤В ╨▒╨╗╨╛╨║ ╤Б ╤В╨╡╨║╤Б╤В╨╛╨╝*/
+}
+
+/* line 212, ../sass/_oldpages.scss */
+.text_item p {
+  color: black;
+  font-size: 16px;
+}
+
+/* line 216, ../sass/_oldpages.scss */
+.bottom_line {
+  height: 4px;
+  background: linear-gradient(168.41deg, #1C3254 0%, #F7423B 100%);
+  flex-shrink: 0;
+  /*╨╜╨╡ ╨┤╨░╨╡╤В ╤Б╤Г╨╢╨░╤В╤М╤Б╤П ╨▒╨╗╨╛╨║╤Г ╤Б ╨│╤А╨░╨┤╨╕╨╡╨╜╤В╨╛╨╝*/
+}
+
+/*=====================================================================*/
+/* line 223, ../sass/_oldpages.scss */
+.shop {
+  background: #1C3254;
+  width: 100%;
+  margin-bottom: 167px;
+}
+
+/* line 229, ../sass/_oldpages.scss */
+.shop_container {
+  max-width: 984px;
+  margin: 0 auto;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+}
+
+/* line 240, ../sass/_oldpages.scss */
+.shop_block {
+  width: 50%;
+  margin: 60px 0 60px 0;
+  padding: 0 30px 0 30px;
+}
+
+/* line 245, ../sass/_oldpages.scss */
+.shop_block__img {
+  position: relative;
+  margin: 0 64px 24px 64px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+/* line 252, ../sass/_oldpages.scss */
+.shop_block__img img {
+  width: 100%;
+  display: block;
+}
+
+/* line 256, ../sass/_oldpages.scss */
+.shop_block__title {
+  margin-bottom: 16px;
+}
+
+/* line 259, ../sass/_oldpages.scss */
+.shop_block__title h2 {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: white;
+}
+
+/* line 266, ../sass/_oldpages.scss */
+.shop_block__text {
+  padding: 0 15px;
+}
+
+/* line 269, ../sass/_oldpages.scss */
+.shop_block__text p {
+  font-weight: 300;
+  font-size: 16px;
+  color: white;
+}
+
+/* line 6, ../sass/_mixin.scss */
+.example-class {
+  color: white;
+  background-color: red;
+  height: 100%;
+  width: 100%;
+}
+
+/* line 1, ../sass/_btn.scss */
+button, button:active, button:hover, button:visited {
+  outline: none;
+}
+
+/* line 6, ../sass/style.scss */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 10, ../sass/style.scss */
+body {
+  height: 100%;
+}

@@ -1,0 +1,13 @@
+@import "oldpages";
+@import "var";
+@import "mixin";
+@import "btn";
+@import "pages";
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  height: 100%;
+}
+@import "media";
