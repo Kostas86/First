@@ -230,16 +230,16 @@ display: block;
 	flex-direction: row;
 	flex-wrap: nowrap;
 	justify-content: center;
-	align-items: center;
+	align-items: flex-start;
 }
 
 .shop_block{
-	display: flex;
-	flex: 0 0 50%;
-	width: 50%;
+    width: 50%;
 	margin: 60px 0 60px 0;
-	padding: 0 30px 0 30px;
+    padding: 0 30px 0 30px;
+    
 }
+
 .shop_block__img{
 	position: relative;
 	margin: 0 64px 24px 64px;
