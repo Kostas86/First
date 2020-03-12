@@ -347,6 +347,7 @@ body {
   color: white;
 }
 
+/*===================================================*/
 /* line 6, ../sass/_mixin.scss */
 .example-class {
   color: white;
@@ -369,4 +370,62 @@ button, button:active, button:hover, button:visited {
 /* line 10, ../sass/style.scss */
 body {
   height: 100%;
+}
+
+/* line 15, ../sass/style.scss */
+.form {
+  width: 100%;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.05);
+}
+/* line 19, ../sass/style.scss */
+.form .form_content {
+  width: 1170px;
+  margin: 0 auto;
+  padding: 60px 0px;
+  text-align: left;
+}
+/* line 24, ../sass/style.scss */
+.form .form_content .form_title {
+  display: block;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 35px;
+  color: #000000;
+  margin-bottom: 8px;
+}
+/* line 32, ../sass/style.scss */
+.form .form_content .form_subtitle {
+  display: block;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+  margin-bottom: 60px;
+}
+/* line 40, ../sass/style.scss */
+.form .form_content .form_wrap {
+  width: 1170px;
+  height: 642px;
+  background: #1C3254;
+  border-radius: 8px;
+  position: relative;
+  padding: 20px;
+  color: #FFFFFF;
+}
+/* line 48, ../sass/style.scss */
+.form .form_content .form_wrap .form_question {
+  display: block;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 23px;
+  margin-bottom: 15px;
+}
+/* line 55, ../sass/style.scss */
+.form .form_content .form_wrap .form_question_subtitle {
+  display: block;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  margin-bottom: 20px;
 }

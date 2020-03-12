@@ -11,3 +11,57 @@ body{
   height: 100%;
 }
 @import "media";
+
+.form{
+  width: 100%;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.05);
+  .form_content{
+    width: 1170px;
+    margin: 0 auto;
+    padding: 60px 0px;
+    text-align: left;
+    .form_title{
+      display: block;
+      font-weight: normal;
+      font-size: 30px;
+      line-height: 35px;
+      color: #000000;
+      margin-bottom: 8px;
+    }
+    .form_subtitle{
+      display: block;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 19px;
+      color: #000000;
+      margin-bottom: 60px;
+    }
+    .form_wrap{
+      width: 1170px;
+      height: 642px;
+      background: #1C3254;
+      border-radius: 8px;
+      position: relative;
+      padding: 20px;
+      color: #FFFFFF;
+      .form_question{
+        display: block;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 23px;
+        margin-bottom: 15px;
+      }
+      .form_question_subtitle{
+        display: block;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 19px;
+        margin-bottom: 20px;
+      }
+    }
+      
+  }
+
+
+}
