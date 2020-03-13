@@ -379,14 +379,14 @@ body {
   background-color: rgba(0, 0, 0, 0.05);
 }
 /* line 19, ../sass/style.scss */
-.form .form_content {
+.form_content {
   width: 1170px;
   margin: 0 auto;
   padding: 60px 0px;
   text-align: left;
 }
 /* line 24, ../sass/style.scss */
-.form .form_content .form_title {
+.form_content .form_title {
   display: block;
   font-weight: normal;
   font-size: 30px;
@@ -395,7 +395,7 @@ body {
   margin-bottom: 8px;
 }
 /* line 32, ../sass/style.scss */
-.form .form_content .form_subtitle {
+.form_content .form_subtitle {
   display: block;
   font-weight: normal;
   font-size: 16px;
@@ -404,7 +404,7 @@ body {
   margin-bottom: 60px;
 }
 /* line 40, ../sass/style.scss */
-.form .form_content .form_wrap {
+.form_content .form_wrap {
   width: 1170px;
   height: 642px;
   background: #1C3254;
@@ -414,7 +414,7 @@ body {
   color: #FFFFFF;
 }
 /* line 48, ../sass/style.scss */
-.form .form_content .form_wrap .form_question {
+.form_content .form_wrap__question {
   display: block;
   font-weight: bold;
   font-size: 20px;
@@ -422,10 +422,37 @@ body {
   margin-bottom: 15px;
 }
 /* line 55, ../sass/style.scss */
-.form .form_content .form_wrap .form_question_subtitle {
+.form_content .form_wrap__subtitle {
   display: block;
   font-weight: 300;
   font-size: 16px;
   line-height: 19px;
   margin-bottom: 20px;
+}
+/* line 62, ../sass/style.scss */
+.form_content .form_wrap .wrap_top {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: left;
+  align-items: flex-start;
+  height: 400px;
+  color: black;
+  border-bottom: 1px solid red;
+}
+/* line 71, ../sass/style.scss */
+.form_content .form_wrap .wrap_top__answer {
+  width: 200px;
+  height: 177px;
+  background-color: white;
+  margin-right: 20px;
+}
+/* line 78, ../sass/style.scss */
+.form_content .form_wrap .wrap_bottom {
+  position: relative;
+}
+/* line 80, ../sass/style.scss */
+.form_content .form_wrap .wrap_bottom__control {
+  text-align: center;
+  margin-bottom: 24px;
 }
