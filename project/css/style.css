@@ -436,23 +436,87 @@ body {
   flex-wrap: nowrap;
   justify-content: left;
   align-items: flex-start;
-  height: 400px;
+  height: 350px;
   color: black;
-  border-bottom: 1px solid red;
 }
-/* line 71, ../sass/style.scss */
+/* line 70, ../sass/style.scss */
 .form_content .form_wrap .wrap_top__answer {
   width: 200px;
   height: 177px;
   background-color: white;
   margin-right: 20px;
 }
-/* line 78, ../sass/style.scss */
+/* line 77, ../sass/style.scss */
 .form_content .form_wrap .wrap_bottom {
   position: relative;
+  padding-top: 24px;
 }
 /* line 80, ../sass/style.scss */
 .form_content .form_wrap .wrap_bottom__control {
+  display: block;
   text-align: center;
-  margin-bottom: 24px;
+  font-size: 20px;
+  line-height: 23px;
+  height: 60px;
+  border-bottom: 1px solid grey;
+}
+/* line 88, ../sass/style.scss */
+.form_content .form_wrap .wrap_bottom__form {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 24px 0px;
+}
+/* line 93, ../sass/style.scss */
+.form_content .form_wrap .wrap_bottom__form .item_form {
+  width: 230px;
+  height: 48px;
+  border-radius: 4px;
+  border: 1px solid white;
+  margin-right: 20px;
+  text-align: left;
+  padding: 8px;
+}
+/* line 103, ../sass/style.scss */
+.form_content .form_wrap .wrap_bottom__form .button_form {
+  width: 110px;
+  height: 48px;
+  background: #F7423B;
+  border-radius: 4px;
+  border: 1px solid #F7423B;
+  color: #FFFFFF;
+  font-size: 16px;
+  text-decoration: none;
+  padding: 8px;
+  cursor: pointer;
+}
+/* line 114, ../sass/style.scss */
+.form_content .form_wrap .wrap_bottom__form .button_form:hover {
+  opacity: 0.8;
+}
+
+/* line 123, ../sass/style.scss */
+.contacts {
+  position: relative;
+}
+/* line 125, ../sass/style.scss */
+.contacts .contacts_top {
+  width: 1170px;
+  margin: 0 auto;
+  padding: 60px 0px;
+  font-size: 30px;
+  color: black;
+}
+/* line 132, ../sass/style.scss */
+.contacts .information {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 50%;
+  background-color: #1C3254;
+  height: 300px;
+}
+/* line 138, ../sass/style.scss */
+.contacts .information .information_container {
+  width: 1170px;
+  margin: 0 auto;
 }
