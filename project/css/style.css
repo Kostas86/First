@@ -361,31 +361,20 @@ button, button:active, button:hover, button:visited {
   outline: none;
 }
 
-/* line 6, ../sass/style.scss */
-* {
-  margin: 0;
-  padding: 0;
-}
-
-/* line 10, ../sass/style.scss */
-body {
-  height: 100%;
-}
-
-/* line 15, ../sass/style.scss */
+/* line 1, ../sass/_pages.scss */
 .form {
   width: 100%;
   position: relative;
   background-color: rgba(0, 0, 0, 0.05);
 }
-/* line 19, ../sass/style.scss */
+/* line 5, ../sass/_pages.scss */
 .form_content {
   width: 1170px;
   margin: 0 auto;
   padding: 60px 0px;
   text-align: left;
 }
-/* line 24, ../sass/style.scss */
+/* line 10, ../sass/_pages.scss */
 .form_content .form_title {
   display: block;
   font-weight: normal;
@@ -394,7 +383,7 @@ body {
   color: #000000;
   margin-bottom: 8px;
 }
-/* line 32, ../sass/style.scss */
+/* line 18, ../sass/_pages.scss */
 .form_content .form_subtitle {
   display: block;
   font-weight: normal;
@@ -403,7 +392,7 @@ body {
   color: #000000;
   margin-bottom: 60px;
 }
-/* line 40, ../sass/style.scss */
+/* line 26, ../sass/_pages.scss */
 .form_content .form_wrap {
   width: 1170px;
   height: 642px;
@@ -413,7 +402,7 @@ body {
   padding: 20px;
   color: #FFFFFF;
 }
-/* line 48, ../sass/style.scss */
+/* line 34, ../sass/_pages.scss */
 .form_content .form_wrap__question {
   display: block;
   font-weight: bold;
@@ -421,7 +410,7 @@ body {
   line-height: 23px;
   margin-bottom: 15px;
 }
-/* line 55, ../sass/style.scss */
+/* line 41, ../sass/_pages.scss */
 .form_content .form_wrap__subtitle {
   display: block;
   font-weight: 300;
@@ -429,7 +418,7 @@ body {
   line-height: 19px;
   margin-bottom: 20px;
 }
-/* line 62, ../sass/style.scss */
+/* line 48, ../sass/_pages.scss */
 .form_content .form_wrap .wrap_top {
   display: flex;
   flex-direction: row;
@@ -439,19 +428,19 @@ body {
   height: 350px;
   color: black;
 }
-/* line 70, ../sass/style.scss */
+/* line 56, ../sass/_pages.scss */
 .form_content .form_wrap .wrap_top__answer {
   width: 200px;
   height: 177px;
   background-color: white;
   margin-right: 20px;
 }
-/* line 77, ../sass/style.scss */
+/* line 63, ../sass/_pages.scss */
 .form_content .form_wrap .wrap_bottom {
   position: relative;
   padding-top: 24px;
 }
-/* line 80, ../sass/style.scss */
+/* line 66, ../sass/_pages.scss */
 .form_content .form_wrap .wrap_bottom__control {
   display: block;
   text-align: center;
@@ -460,14 +449,14 @@ body {
   height: 60px;
   border-bottom: 1px solid grey;
 }
-/* line 88, ../sass/style.scss */
+/* line 74, ../sass/_pages.scss */
 .form_content .form_wrap .wrap_bottom__form {
   display: flex;
   justify-content: flex-start;
   align-items: center;
   padding: 24px 0px;
 }
-/* line 93, ../sass/style.scss */
+/* line 79, ../sass/_pages.scss */
 .form_content .form_wrap .wrap_bottom__form .item_form {
   width: 230px;
   height: 48px;
@@ -477,7 +466,7 @@ body {
   text-align: left;
   padding: 8px;
 }
-/* line 103, ../sass/style.scss */
+/* line 89, ../sass/_pages.scss */
 .form_content .form_wrap .wrap_bottom__form .button_form {
   width: 110px;
   height: 48px;
@@ -490,16 +479,16 @@ body {
   padding: 8px;
   cursor: pointer;
 }
-/* line 114, ../sass/style.scss */
+/* line 100, ../sass/_pages.scss */
 .form_content .form_wrap .wrap_bottom__form .button_form:hover {
   opacity: 0.8;
 }
 
-/* line 123, ../sass/style.scss */
+/* line 109, ../sass/_pages.scss */
 .contacts {
   position: relative;
 }
-/* line 125, ../sass/style.scss */
+/* line 111, ../sass/_pages.scss */
 .contacts .contacts_top {
   width: 1170px;
   margin: 0 auto;
@@ -507,7 +496,7 @@ body {
   font-size: 30px;
   color: black;
 }
-/* line 132, ../sass/style.scss */
+/* line 118, ../sass/_pages.scss */
 .contacts .information {
   display: flex;
   flex-direction: column;
@@ -515,8 +504,75 @@ body {
   background-color: #1C3254;
   height: 300px;
 }
-/* line 138, ../sass/style.scss */
+/* line 124, ../sass/_pages.scss */
 .contacts .information .information_container {
   width: 1170px;
   margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  color: white;
+}
+/* line 132, ../sass/_pages.scss */
+.contacts .information .information_container .information_column {
+  flex: 0 0 50%;
+}
+/* line 134, ../sass/_pages.scss */
+.contacts .information .information_container .information_column input {
+  display: none;
+}
+/* line 137, ../sass/_pages.scss */
+.contacts .information .information_container .information_column h3 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 23px;
+}
+/* line 143, ../sass/_pages.scss */
+.contacts .information .information_container .information_column .office_adrr {
+  display: block;
+}
+/* line 146, ../sass/_pages.scss */
+.contacts .information .information_container .information_column__tel {
+  display: block;
+  position: relative;
+  padding-left: 20px;
+}
+/* line 151, ../sass/_pages.scss */
+.contacts .information .information_container .information_column__tel:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  background-image: url(../img/tel.svg);
+  width: 14px;
+  height: 14px;
+}
+/* line 161, ../sass/_pages.scss */
+.contacts .information .information_container .information_column__mail {
+  display: block;
+  position: relative;
+  padding-left: 20px;
+}
+/* line 166, ../sass/_pages.scss */
+.contacts .information .information_container .information_column__mail:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: calc(50% - 6px);
+  background-image: url(../img/mail.svg);
+  width: 16px;
+  height: 12px;
+}
+
+/* line 6, ../sass/style.scss */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 10, ../sass/style.scss */
+body {
+  height: 100%;
 }
