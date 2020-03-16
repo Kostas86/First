@@ -484,11 +484,12 @@ button, button:active, button:hover, button:visited {
   opacity: 0.8;
 }
 
-/* line 109, ../sass/_pages.scss */
+/*===========================================================*/
+/* line 110, ../sass/_pages.scss */
 .contacts {
   position: relative;
 }
-/* line 111, ../sass/_pages.scss */
+/* line 112, ../sass/_pages.scss */
 .contacts .contacts_top {
   width: 1170px;
   margin: 0 auto;
@@ -496,7 +497,7 @@ button, button:active, button:hover, button:visited {
   font-size: 30px;
   color: black;
 }
-/* line 118, ../sass/_pages.scss */
+/* line 119, ../sass/_pages.scss */
 .contacts .information {
   display: flex;
   flex-direction: column;
@@ -504,7 +505,7 @@ button, button:active, button:hover, button:visited {
   background-color: #1C3254;
   height: 300px;
 }
-/* line 124, ../sass/_pages.scss */
+/* line 125, ../sass/_pages.scss */
 .contacts .information .information_container {
   width: 1170px;
   margin: 0 auto;
@@ -513,32 +514,80 @@ button, button:active, button:hover, button:visited {
   flex-wrap: nowrap;
   color: white;
 }
-/* line 132, ../sass/_pages.scss */
+/* line 133, ../sass/_pages.scss */
 .contacts .information .information_container .information_column {
   flex: 0 0 50%;
+  padding: 24px 200px 24px 0px;
 }
-/* line 134, ../sass/_pages.scss */
+/* line 136, ../sass/_pages.scss */
+.contacts .information .information_container .information_column__radio {
+  display: block;
+}
+/* line 138, ../sass/_pages.scss */
+.contacts .information .information_container .information_column__radio div {
+  display: inline-block;
+  position: relative;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background-color: white;
+  margin-right: 8px;
+}
+/* line 149, ../sass/_pages.scss */
 .contacts .information .information_container .information_column input {
   display: none;
 }
-/* line 137, ../sass/_pages.scss */
+/* line 152, ../sass/_pages.scss */
+.contacts .information .information_container .information_column input:checked ~ label h3 {
+  border-bottom: 1px solid red;
+}
+/* line 157, ../sass/_pages.scss */
+.contacts .information .information_container .information_column input:checked ~ label.information_column__radio div:before {
+  content: "";
+  height: 4px;
+  width: 4px;
+  border-radius: 50%;
+  position: absolute;
+  background-color: black;
+  left: 50%;
+  top: 50%;
+  display: block;
+  transform: translate(-50%, -50%);
+}
+/* line 170, ../sass/_pages.scss */
+.contacts .information .information_container .information_column input:checked ~ label.information_column__radio span {
+  color: red;
+}
+/* line 176, ../sass/_pages.scss */
 .contacts .information .information_container .information_column h3 {
   font-style: normal;
   font-weight: bold;
   font-size: 20px;
   line-height: 23px;
+  border-bottom: 1px solid grey;
 }
-/* line 143, ../sass/_pages.scss */
-.contacts .information .information_container .information_column .office_adrr {
+/* line 183, ../sass/_pages.scss */
+.contacts .information .information_container .information_column .information_column__adrr {
   display: block;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 23px;
+  color: #FFFFFF;
+  margin: 24px 0px;
 }
-/* line 146, ../sass/_pages.scss */
+/* line 192, ../sass/_pages.scss */
 .contacts .information .information_container .information_column__tel {
   display: block;
   position: relative;
   padding-left: 20px;
+  margin-bottom: 12px;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 23px;
+  color: #FFFFFF;
 }
-/* line 151, ../sass/_pages.scss */
+/* line 203, ../sass/_pages.scss */
 .contacts .information .information_container .information_column__tel:before {
   content: "";
   position: absolute;
@@ -549,13 +598,18 @@ button, button:active, button:hover, button:visited {
   width: 14px;
   height: 14px;
 }
-/* line 161, ../sass/_pages.scss */
+/* line 213, ../sass/_pages.scss */
 .contacts .information .information_container .information_column__mail {
   display: block;
   position: relative;
   padding-left: 20px;
+  margin-bottom: 24px;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 23px;
+  color: #FFFFFF;
 }
-/* line 166, ../sass/_pages.scss */
+/* line 223, ../sass/_pages.scss */
 .contacts .information .information_container .information_column__mail:before {
   content: "";
   position: absolute;
@@ -566,6 +620,7 @@ button, button:active, button:hover, button:visited {
   height: 12px;
 }
 
+/*================================================*/
 /* line 6, ../sass/style.scss */
 * {
   margin: 0;

@@ -106,6 +106,7 @@
       }   
     }
   }
+  /*===========================================================*/
   .contacts{
     position: relative;
     .contacts_top{
@@ -130,23 +131,74 @@
         color: white;
   
         .information_column{
-            flex: 0 0 50%;
+          flex: 0 0 50%;
+          padding: 24px 200px 24px 0px;
+          &__radio{
+            display: block;
+            div{
+              display: inline-block;
+              position: relative;
+              width: 14px;
+              height: 14px;
+              border-radius: 50%;
+              background-color: white;
+              margin-right: 8px;
+
+            }
+          }
             input{
                 display: none;
+                &:checked{
+                  & ~ label h3{
+                    border-bottom: 1px solid red;
+                  }
+                  & ~ label.information_column__radio{
+                    div{
+                      &:before{
+                        content:"";
+                        height: 4px;
+                        width: 4px;
+                        border-radius: 50%;
+                        position: absolute;
+                        background-color: black;
+                        left: 50%;
+                        top: 50%;
+                        display: block;
+                        transform: translate(-50%,-50%);
+                      }  
+                    }
+                    span{
+                      color: red;
+                    }
+                  }
+                }
             }
             h3{
                 font-style: normal;
                 font-weight: bold;
                 font-size: 20px;
                 line-height: 23px;
+                border-bottom: 1px solid grey;
             }
-            .office_adrr{
+            .information_column__adrr{
                 display: block;
+                font-style: normal;
+                font-weight: 300;
+                font-size: 16px;
+                line-height: 23px;
+                color: #FFFFFF;
+                margin: 24px 0px;
             }
             &__tel{
                 display: block;
                 position: relative;
-                padding-left: 20px ;
+                padding-left: 20px;
+                margin-bottom: 12px;
+                font-weight: 300;
+                font-size: 16px;
+                line-height: 23px;
+                color: #FFFFFF;
+
             }
             &__tel:before {
                 content: "";
@@ -161,7 +213,12 @@
             &__mail{
                 display: block;
                 position: relative;
-                padding-left: 20px ;
+                padding-left: 20px;
+                margin-bottom: 24px;
+                font-weight: 300;
+                font-size: 16px;
+                line-height: 23px;
+                color: #FFFFFF;
             }
             &__mail:before {
                 content: "";
@@ -172,11 +229,6 @@
                 width: 16px;
                 height: 12px;
             }
-                &__circle{
-                    
-                }
-
-  
         }
       }
   
@@ -184,4 +236,4 @@
       
   }
   
-
+/*================================================*/
