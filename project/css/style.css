@@ -574,9 +574,10 @@ button, button:active, button:hover, button:visited {
   font-size: 16px;
   line-height: 23px;
   color: #FFFFFF;
+  text-align: left;
   margin: 24px 0px;
 }
-/* line 192, ../sass/_pages.scss */
+/* line 193, ../sass/_pages.scss */
 .contacts .information .information_container .information_column__tel {
   display: block;
   position: relative;
@@ -587,7 +588,7 @@ button, button:active, button:hover, button:visited {
   line-height: 23px;
   color: #FFFFFF;
 }
-/* line 203, ../sass/_pages.scss */
+/* line 204, ../sass/_pages.scss */
 .contacts .information .information_container .information_column__tel:before {
   content: "";
   position: absolute;
@@ -598,7 +599,7 @@ button, button:active, button:hover, button:visited {
   width: 14px;
   height: 14px;
 }
-/* line 213, ../sass/_pages.scss */
+/* line 214, ../sass/_pages.scss */
 .contacts .information .information_container .information_column__mail {
   display: block;
   position: relative;
@@ -609,7 +610,7 @@ button, button:active, button:hover, button:visited {
   line-height: 23px;
   color: #FFFFFF;
 }
-/* line 223, ../sass/_pages.scss */
+/* line 224, ../sass/_pages.scss */
 .contacts .information .information_container .information_column__mail:before {
   content: "";
   position: absolute;
@@ -621,6 +622,25 @@ button, button:active, button:hover, button:visited {
 }
 
 /*================================================*/
+/* line 241, ../sass/_pages.scss */
+.map {
+  width: 100%;
+  height: 560px;
+  position: relative;
+}
+
+/*=========================================*/
+/* line 248, ../sass/_pages.scss */
+.footer_item {
+  width: 100%;
+  background-color: #1C3254;
+  text-align: center;
+  font-weight: normal;
+  font-size: 16px;
+  color: #FFFFFF;
+  padding: 16px 0px;
+}
+
 /* line 6, ../sass/style.scss */
 * {
   margin: 0;
